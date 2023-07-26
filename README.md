@@ -2,8 +2,8 @@
 
 ## APOIO
 
-- [📺 Kubernetes Doc - Certificates and Certificate Signing Requests](https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/)
-- [Fabricio Veronez - Como criar usuários no cluster Kubernetes](https://youtu.be/WQx_aFVFXh8)
+- [Kubernetes Doc - Certificates and Certificate Signing Requests](https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/)
+- [📺 Fabricio Veronez - Como criar usuários no cluster Kubernetes](https://youtu.be/WQx_aFVFXh8)
 - [📺 vNugget - How To Create A Normal User In Kubernetes](https://youtu.be/r_fSTn_Ixuk)
 - [📺 InfraHQ - Creating Users in Kubernetes](https://youtu.be/dnKVZR4eK7Q)
 
