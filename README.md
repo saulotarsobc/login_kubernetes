@@ -121,16 +121,16 @@ code kubeconfig-saulo.yaml;
 contexts:
 - context:
     cluster: docker-desktop
-    user: saulo
-  name: saulo@docker-desktop
-current-context: saulo@docker-desktop
+    user: docker-desktop
+  name: docker-desktop
+current-context: docker-desktop
 kind: Config
 preferences: {}
 users:
-- name: saulo
+- name: docker-desktop
   user:
-    client-certificate-data: ./saulo.crt
-    client-key-data: ./saulo.key
+    client-certificate: ./saulo.crt
+    client-key: ./saulo.key
 ```
 
 ![-](/images/image.png)
