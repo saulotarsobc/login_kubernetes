@@ -46,10 +46,10 @@ cat saulo.csr | base64 | tr -d "\n";
 ## Criar o *manifesto*
 
 ```sh
-code k9s-csr.yaml;
+code k8s-csr.yaml;
 ```
 
-### Configuração do *k9s-csr.yaml*
+### Configuração do *k8s-csr.yaml*
 
 ```yaml
 apiVersion: certificates.k8s.io/v1
