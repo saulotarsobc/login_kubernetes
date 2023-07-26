@@ -124,3 +124,20 @@ kubectl get nodes --kubeconfig kubeconfig-saulo.yaml;
 
 ## Add permisões para o usuario usando o 👉[*RBAC*](https://youtu.be/1cv94XguLyg)
 
+### criar o *rbac.yaml*
+
+```sh
+code rbac.yaml;
+```
+
+Aplica o *rbac*
+
+```sh
+kubectl apply -f rbac.yaml;
+```
+
+Testar como o comando
+
+```sh
+kubectl get pods -n ecomerce --kubeconfig kubeconfig-saulo.yaml;
+```
