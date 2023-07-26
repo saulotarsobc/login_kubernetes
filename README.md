@@ -102,6 +102,13 @@ echo "[CRT em base64]" | base64 --decode > saulo.crt;
 Ou simplesmente rodar... (será que funciona msm? rsrs)
 
 ```sh
-kubectl get csr saulo -o jsonpath='{.status.certificate}'| base64 -d > saulo.crt
+kubectl get csr saulo -o jsonpath='{.status.certificate}'| base64 -d > saulo.crt;
 ```
 
+## config
+
+Copiar o *config* local para o diretorio atual
+
+```sh
+cp ~/.kube/config ./kubeconfig-saulo.yaml;
+```
