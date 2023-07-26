@@ -132,6 +132,38 @@ kubectl get nodes --kubeconfig kubeconfig-saulo.yaml;
 code rbac.yaml;
 ```
 
+### modelo
+
+```yaml
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: ecomerce-user
+  namespace: ecomercer
+rules:
+  - apiGroups: [""]
+    resources: ["pods", "services"]
+    verbs: ["get", "list", "watch", "create", "update", "delete", "patch"]
+  - apiGroups: ["apps"]
+    resources: ["replicasets", "deployments"]
+    verbs: ["get", "list", "watch", "create", "update", "delete", "patch"]
+
+---
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: ecomerce-user-bind
+  namespace: ecomercer
+subjects:
+- kind: User
+  name: saulo
+roleRef:
+  kind: Role
+  name: ecomerce-user
+  apiGroup: bac.authorization.k8s.io
+```
+
 Aplica o *rbac*
 
 ```sh
