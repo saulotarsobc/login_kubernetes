@@ -57,7 +57,7 @@ kind: CertificateSigningRequest
 metadata:
   name: saulo
 spec:
-  resquest: [CERTIFICATE REQUEST em base64]
+  request: [CERTIFICATE REQUEST em base64]
   signerName: kubernetes.io/kube-apiserver-client
   usages:
     - client auth
