@@ -116,12 +116,6 @@ cp ~/.kube/config ./kubeconfig-saulo.yaml;
 code kubeconfig-saulo.yaml;
 ```
 
-Tentar listar os nodes usando o kubeconfig criado.
-
-```sh
-kubectl get nodes --kubeconfig kubeconfig-saulo.yaml;
-```
-
 ```yaml
 ...
 contexts:
@@ -140,6 +134,12 @@ users:
 ```
 
 ![-](/images/image.png)
+
+Tentar listar os nodes usando o kubeconfig criado.
+
+```sh
+kubectl get nodes --kubeconfig kubeconfig-saulo.yaml;
+```
 
 > Criou o usuario mas ele ainda não tem nenhuma permisão
 
