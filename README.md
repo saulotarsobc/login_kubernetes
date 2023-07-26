@@ -122,6 +122,8 @@ Tentar listar os nodes usando o kubeconfig criado.
 kubectl get nodes --kubeconfig kubeconfig-saulo.yaml;
 ```
 
+![-](/images/image.png)
+
 > Criou o usuario mas ele ainda não tem nenhuma permisão
 
 ## Add permisões para o usuario usando o 👉[*RBAC*](https://youtu.be/1cv94XguLyg)
