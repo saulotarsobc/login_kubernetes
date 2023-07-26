@@ -141,3 +141,9 @@ Testar como o comando
 ```sh
 kubectl get pods -n ecomerce --kubeconfig kubeconfig-saulo.yaml;
 ```
+
+> No video o Fabrício faz um teste realizadno um deploy usando as config criada expecificando o namespace (-n)
+
+```sh
+kubectl apply -f deployment.yaml -n ecomerce --kubeconfig kubeconfig-saulo.yaml;
+```
