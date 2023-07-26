@@ -107,8 +107,15 @@ kubectl get csr saulo -o jsonpath='{.status.certificate}'| base64 -d > saulo.cr
 
 ## config
 
-Copiar o *config* local para o diretorio atual
+Copiar o *config* local para o diretorio atual para usa-lo como base
 
 ```sh
 cp ~/.kube/config ./kubeconfig-saulo.yaml;
+code kubeconfig-saulo.yaml;
+```
+
+Tentar listar os nodes usando o kubeconfig criado.
+
+```sh
+kubectl get nodes --kubeconfig kubeconfig-saulo.yaml;
 ```
