@@ -1,4 +1,5 @@
-k9s-csr.yaml
-saulo.csr
-saulo.key
-gitp.sh
+*.yaml
+*.csr
+*.key
+*.sh
+*.crt

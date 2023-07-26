@@ -64,7 +64,7 @@ spec:
 ### Apply
 
 ```sh
-kubectl apply -f k9s-csr.yaml;
+kubectl apply -f k8s-csr.yaml;
 ```
 
 Vai dar msg de certificado **criado**
@@ -98,3 +98,10 @@ kubectl get csr saulo -o yaml;
 ```sh
 echo "[CRT em base64]" | base64 --decode > saulo.crt;
 ```
+
+Ou simplesmente rodar... (será que funciona msm? rsrs)
+
+```sh
+kubectl get csr saulo -o jsonpath='{.status.certificate}'| base64 -d > saulo.crt
+```
+
