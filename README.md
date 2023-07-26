@@ -80,7 +80,7 @@ kubectl get csr;
 ### Aprovar o certificado
 
 ```sh
-kubectl certificate appove saulo;
+kubectl certificate approve saulo;
 ```
 
 Vai dar msg de certificado **aprovado**
