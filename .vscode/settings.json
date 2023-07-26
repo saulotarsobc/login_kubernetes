@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "kubernetes://schema/rbac.authorization.k8s.io/v1%40rolebinding": "file:///mnt/c/Users/saulo/Documents/GitHub/login_kubernetes/rbac.yaml"
+    }
+}

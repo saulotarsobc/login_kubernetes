@@ -151,14 +151,14 @@ kubectl get nodes --kubeconfig kubeconfig-saulo.yaml;
 code rbac.yaml;
 ```
 
-### modelo
+### Modelo
 
 ```yaml
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
   name: ecomerce-user
-  namespace: ecomercer
+  namespace: ecomerce
 rules:
   - apiGroups: [""]
     resources: ["pods", "services"]
@@ -173,14 +173,14 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: ecomerce-user-bind
-  namespace: ecomercer
+  namespace: ecomerce
 subjects:
 - kind: User
   name: saulo
 roleRef:
   kind: Role
   name: ecomerce-user
-  apiGroup: bac.authorization.k8s.io
+  apiGroup: rbac.authorization.k8s.io
 ```
 
 Aplica o *rbac*
