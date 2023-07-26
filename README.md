@@ -2,9 +2,10 @@
 
 ## APOIO
 
-- [Kubernetes Doc - Certificates and Certificate Signing Requests](https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/)
+- [📺 Kubernetes Doc - Certificates and Certificate Signing Requests](https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/)
 - [Fabricio Veronez - Como criar usuários no cluster Kubernetes](https://youtu.be/WQx_aFVFXh8)
-- [InfraHQ - Creating Users in Kubernetes](https://youtu.be/dnKVZR4eK7Q)
+- [📺 vNugget - How To Create A Normal User In Kubernetes](https://youtu.be/r_fSTn_Ixuk)
+- [📺 InfraHQ - Creating Users in Kubernetes](https://youtu.be/dnKVZR4eK7Q)
 
 ## Criar o namespace
 
