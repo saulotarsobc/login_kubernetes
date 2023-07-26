@@ -122,6 +122,23 @@ Tentar listar os nodes usando o kubeconfig criado.
 kubectl get nodes --kubeconfig kubeconfig-saulo.yaml;
 ```
 
+```yaml
+...
+contexts:
+- context:
+    cluster: docker-desktop
+    user: saulo
+  name: saulo@docker-desktop
+current-context: saulo@docker-desktop
+kind: Config
+preferences: {}
+users:
+- name: saulo
+  user:
+    client-certificate-data: ./saulo.crt
+    client-key-data: ./saulo.key
+```
+
 ![-](/images/image.png)
 
 > Criou o usuario mas ele ainda não tem nenhuma permisão
